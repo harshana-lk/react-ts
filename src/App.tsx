@@ -1,10 +1,9 @@
-import ListGroup from "./components/ListGroup";
+import { BsFillCalendarFill } from "react-icons/bs";
 
 const App = () => {
-  const items = ["Badulla", "Colombo", "Kandy", "Panadura"];
   return (
     <div>
-      <ListGroup heading="Sri Lanka" items={items} onSelectItem={() => {}} />
+      <BsFillCalendarFill />
     </div>
   );
 };
